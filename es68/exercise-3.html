@@ -1,0 +1,32 @@
+<html>
+  <body>
+    <div id="container">
+      <form>
+        <div>
+          <label>Title</label>
+          <input type="text" id="todo-title" />
+        </div>
+        <div>
+          <label>Completed</label>
+          <input type="checkbox" id="todo-completed" />
+        </div>
+
+        <button type="submit" id="submit-todo"></button>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script>
+  let form = document.querySelector("form");
+  let todoTitle = document.getElementById("todo-title");
+  let check = document.getElementById("todo-completed");
+  let sub = document.getElementById("submit-todo");
+
+  form.addEventListener("submit", addPost);
+
+  async function addPost() {
+
+    
+  }
+</script>
